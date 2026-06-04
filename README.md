@@ -157,3 +157,23 @@ problem-name/
 |-- diagram.png        # UML class diagram
 `-- src/               # Implementation
 ```
+
+---
+
+## Progress Tracker
+
+| Phase                         | Total Topics | Completed | Progress |
+| ----------------------------- | ------------ | --------- | -------- |
+| Phase 1 — Foundations         | 4            | 0         | 0%       |
+| Phase 2 — Design Patterns     | 16           | 0         | 0%       |
+| Phase 3 — Real-World Problems | 15           | 0         | 0%       |
+| Phase 4 — Advanced Concepts   | 5            | 0         | 0%       |
+| **Total**                     | **40**       | **0**     | **0%**   |
+
+Status convention used across all tables:
+
+| Symbol | Meaning     |
+| ------ | ----------- |
+| [ ]    | Not started |
+| [~]    | In progress |
+| [x]    | Completed   |
