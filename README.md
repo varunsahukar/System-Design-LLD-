@@ -224,3 +224,7 @@ Please ensure every new problem includes a `README.md`, a class diagram, and a w
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
+
+---
+
+_Maintained as an open learning resource for software engineers preparing for system design interviews or deepening their understanding of object-oriented design._
