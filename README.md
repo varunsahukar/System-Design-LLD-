@@ -25,7 +25,7 @@ A structured, progressive learning path to master Low-Level Design concepts, obj
 
 Low-Level Design (LLD) is the practice of **component-level software design** — translating high-level architectural decisions into concrete class structures, object relationships, design patterns, and maintainable code.
 
-Where High-Level Design answers *"What are we building?"*, LLD answers *"How exactly do we build it?"*
+Where High-Level Design answers _"What are we building?"_, LLD answers _"How exactly do we build it?"_
 
 This repository is a self-contained roadmap that covers foundational OOP principles, all major Gang of Four design patterns, and a curated set of real-world system design problems commonly asked in engineering interviews at product-based companies.
 
@@ -37,12 +37,12 @@ This repository is a self-contained roadmap that covers foundational OOP princip
 
 Build a solid base in object-oriented thinking and modeling before moving to patterns or problems.
 
-| Topic | Description | Status |
-|---|---|---|
-| OOP Principles | Encapsulation, Abstraction, Inheritance, Polymorphism | [ ] |
-| SOLID Principles | SRP, OCP, LSP, ISP, DIP with examples | [ ] |
-| UML Diagrams | Class, Sequence, Activity, and Use-case diagrams | [ ] |
-| Object Modeling | Identifying classes, attributes, and relationships from requirements | [ ] |
+| Topic            | Description                                                          | Status |
+| ---------------- | -------------------------------------------------------------------- | ------ |
+| OOP Principles   | Encapsulation, Abstraction, Inheritance, Polymorphism                | [ ]    |
+| SOLID Principles | SRP, OCP, LSP, ISP, DIP with examples                                | [ ]    |
+| UML Diagrams     | Class, Sequence, Activity, and Use-case diagrams                     | [ ]    |
+| Object Modeling  | Identifying classes, attributes, and relationships from requirements | [ ]    |
 
 ---
 
@@ -52,31 +52,55 @@ Based on the Gang of Four (GoF) catalog. Each pattern includes intent, structure
 
 #### Creational Patterns
 
-| Pattern | Intent | Status |
-|---|---|---|
-| Singleton | Guarantee a single instance across the application | [ ] |
-| Factory Method | Delegate instantiation to subclasses | [ ] |
-| Abstract Factory | Create families of related objects without specifying concrete classes | [ ] |
-| Builder | Construct complex objects step by step, separating construction from representation | [ ] |
-| Prototype | Create new objects by cloning an existing instance | [ ] |
+| Pattern          | Intent                                                                              | Status |
+| ---------------- | ----------------------------------------------------------------------------------- | ------ |
+| Singleton        | Guarantee a single instance across the application                                  | [ ]    |
+| Factory Method   | Delegate instantiation to subclasses                                                | [ ]    |
+| Abstract Factory | Create families of related objects without specifying concrete classes              | [ ]    |
+| Builder          | Construct complex objects step by step, separating construction from representation | [ ]    |
+| Prototype        | Create new objects by cloning an existing instance                                  | [ ]    |
 
 #### Structural Patterns
 
-| Pattern | Intent | Status |
-|---|---|---|
-| Adapter | Convert one interface into another that clients expect | [ ] |
-| Decorator | Attach additional responsibilities to objects dynamically | [ ] |
-| Facade | Provide a simplified interface to a complex subsystem | [ ] |
-| Composite | Compose objects into tree structures to represent part-whole hierarchies | [ ] |
-| Proxy | Control access to another object through a surrogate | [ ] |
+| Pattern   | Intent                                                                   | Status |
+| --------- | ------------------------------------------------------------------------ | ------ |
+| Adapter   | Convert one interface into another that clients expect                   | [ ]    |
+| Decorator | Attach additional responsibilities to objects dynamically                | [ ]    |
+| Facade    | Provide a simplified interface to a complex subsystem                    | [ ]    |
+| Composite | Compose objects into tree structures to represent part-whole hierarchies | [ ]    |
+| Proxy     | Control access to another object through a surrogate                     | [ ]    |
 
 #### Behavioral Patterns
 
-| Pattern | Intent | Status |
-|---|---|---|
-| Observer | Define a one-to-many dependency so dependents update automatically | [ ] |
-| Strategy | Define a family of algorithms and make them interchangeable at runtime | [ ] |
-| Command | Encapsulate a request as an object for parameterization and queuing | [ ] |
-| State | Allow an object to alter its behavior when its internal state changes | [ ] |
-| Iterator | Access elements of a collection sequentially without exposing its structure | [ ] |
-| Chain of Responsibility | Pass a request along a chain of handlers until one handles it | [ ] |
+| Pattern                 | Intent                                                                      | Status |
+| ----------------------- | --------------------------------------------------------------------------- | ------ |
+| Observer                | Define a one-to-many dependency so dependents update automatically          | [ ]    |
+| Strategy                | Define a family of algorithms and make them interchangeable at runtime      | [ ]    |
+| Command                 | Encapsulate a request as an object for parameterization and queuing         | [ ]    |
+| State                   | Allow an object to alter its behavior when its internal state changes       | [ ]    |
+| Iterator                | Access elements of a collection sequentially without exposing its structure | [ ]    |
+| Chain of Responsibility | Pass a request along a chain of handlers until one handles it               | [ ]    |
+
+---
+
+### Phase 3 — Real-World LLD Problems
+
+Each problem includes a requirements breakdown, class diagram, and full implementation.
+
+| Problem                           | Key Patterns Applied           | Status |
+| --------------------------------- | ------------------------------ | ------ |
+| Parking Lot                       | OOP, State, Strategy           | [ ]    |
+| ATM Machine                       | State Machine, Command         | [ ]    |
+| Library Management System         | Relationships, SOLID           | [ ]    |
+| Hotel Booking System              | Factory, Observer              | [ ]    |
+| Chess Game                        | Composite, Strategy            | [ ]    |
+| Elevator System                   | State, Chain of Responsibility | [ ]    |
+| Ride-Sharing App (Uber/Ola)       | Observer, Strategy, Factory    | [ ]    |
+| Food Delivery App (Swiggy/Zomato) | Builder, Observer, State       | [ ]    |
+| E-Commerce Cart                   | Composite, Decorator           | [ ]    |
+| Notification System               | Observer, Strategy             | [ ]    |
+| LRU Cache                         | Design + Data Structures       | [ ]    |
+| Rate Limiter                      | Token Bucket, Sliding Window   | [ ]    |
+| Task Manager (Trello-like)        | Composite, State, Command      | [ ]    |
+| Expense Splitter (Splitwise)      | Graph, SOLID                   | [ ]    |
+| Movie Ticket Booking System       | Factory, State, Observer       | [ ]    |
