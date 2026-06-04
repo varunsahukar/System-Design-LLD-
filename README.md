@@ -59,3 +59,24 @@ Based on the Gang of Four (GoF) catalog. Each pattern includes intent, structure
 | Abstract Factory | Create families of related objects without specifying concrete classes | [ ] |
 | Builder | Construct complex objects step by step, separating construction from representation | [ ] |
 | Prototype | Create new objects by cloning an existing instance | [ ] |
+
+#### Structural Patterns
+
+| Pattern | Intent | Status |
+|---|---|---|
+| Adapter | Convert one interface into another that clients expect | [ ] |
+| Decorator | Attach additional responsibilities to objects dynamically | [ ] |
+| Facade | Provide a simplified interface to a complex subsystem | [ ] |
+| Composite | Compose objects into tree structures to represent part-whole hierarchies | [ ] |
+| Proxy | Control access to another object through a surrogate | [ ] |
+
+#### Behavioral Patterns
+
+| Pattern | Intent | Status |
+|---|---|---|
+| Observer | Define a one-to-many dependency so dependents update automatically | [ ] |
+| Strategy | Define a family of algorithms and make them interchangeable at runtime | [ ] |
+| Command | Encapsulate a request as an object for parameterization and queuing | [ ] |
+| State | Allow an object to alter its behavior when its internal state changes | [ ] |
+| Iterator | Access elements of a collection sequentially without exposing its structure | [ ] |
+| Chain of Responsibility | Pass a request along a chain of handlers until one handles it | [ ] |
