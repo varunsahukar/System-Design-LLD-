@@ -28,3 +28,34 @@ Low-Level Design (LLD) is the practice of **component-level software design** �
 Where High-Level Design answers *"What are we building?"*, LLD answers *"How exactly do we build it?"*
 
 This repository is a self-contained roadmap that covers foundational OOP principles, all major Gang of Four design patterns, and a curated set of real-world system design problems commonly asked in engineering interviews at product-based companies.
+
+---
+
+## Roadmap
+
+### Phase 1 — Foundations
+
+Build a solid base in object-oriented thinking and modeling before moving to patterns or problems.
+
+| Topic | Description | Status |
+|---|---|---|
+| OOP Principles | Encapsulation, Abstraction, Inheritance, Polymorphism | [ ] |
+| SOLID Principles | SRP, OCP, LSP, ISP, DIP with examples | [ ] |
+| UML Diagrams | Class, Sequence, Activity, and Use-case diagrams | [ ] |
+| Object Modeling | Identifying classes, attributes, and relationships from requirements | [ ] |
+
+---
+
+### Phase 2 — Design Patterns
+
+Based on the Gang of Four (GoF) catalog. Each pattern includes intent, structure, and a coded example.
+
+#### Creational Patterns
+
+| Pattern | Intent | Status |
+|---|---|---|
+| Singleton | Guarantee a single instance across the application | [ ] |
+| Factory Method | Delegate instantiation to subclasses | [ ] |
+| Abstract Factory | Create families of related objects without specifying concrete classes | [ ] |
+| Builder | Construct complex objects step by step, separating construction from representation | [ ] |
+| Prototype | Create new objects by cloning an existing instance | [ ] |
