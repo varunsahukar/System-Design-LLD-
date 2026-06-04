@@ -118,3 +118,42 @@ Topics that bridge clean design with production-grade engineering.
 | Refactoring Techniques   | Identifying code smells and applying targeted refactors | [ ]    |
 | Test-Driven Design (TDD) | Writing tests first to drive better LLD decisions       | [ ]    |
 | LLD + HLD Integration    | How component design feeds into system architecture     | [ ]    |
+
+---
+
+## Repository Structure
+
+```
+lld-system-design/
+|
+|-- 01-foundations/
+|   |-- oop-principles/
+|   |-- solid-principles/
+|   `-- uml-diagrams/
+|
+|-- 02-design-patterns/
+|   |-- creational/
+|   |-- structural/
+|   `-- behavioral/
+|
+|-- 03-problems/
+|   |-- parking-lot/
+|   |-- atm/
+|   |-- chess-game/
+|   |-- ride-sharing/
+|   `-- ...
+|
+`-- 04-advanced/
+    |-- concurrency/
+    |-- clean-code/
+    `-- tdd/
+```
+
+Each problem folder follows a consistent structure:
+
+```
+problem-name/
+|-- README.md          # Problem statement, requirements, and approach
+|-- diagram.png        # UML class diagram
+`-- src/               # Implementation
+```
