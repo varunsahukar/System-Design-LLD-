@@ -389,6 +389,44 @@ Please ensure every new problem includes a `README.md`, a class diagram, and a w
 
 ---
 
+## Frequently Asked Questions (FAQ)
+
+**Q: Should I learn all patterns before starting Phase 3 problems?**
+
+A: Yes, it's recommended to complete Phase 2 first. The problems in Phase 3 combine multiple patterns, and having solid pattern knowledge makes them easier to understand and implement.
+
+**Q: Can I skip patterns I already know?**
+
+A: Yes, but ensure you understand each pattern deeply. Even if you've seen a pattern before, implementing it from scratch in this repository reinforces learning. Use your existing knowledge to move faster through those sections.
+
+**Q: How long does each problem typically take to solve?**
+
+A: Phase 3 problems typically take 4–8 hours to complete fully (design + implementation + testing + refactoring). Don't rush; quality implementation is more valuable than speed.
+
+**Q: Should I look at reference solutions?**
+
+A: Implement the problem first without looking at solutions. After completing your version, review reference solutions to learn alternative approaches and identify improvements.
+
+**Q: Can I use different languages for different problems?**
+
+A: Absolutely! This repository supports Java, Python, and C++. Mixing languages deepens your understanding of OOP concepts across different paradigms.
+
+**Q: How do I know if my design is good?**
+
+A: Your design is good if:
+
+- It follows SOLID principles
+- Classes have single, well-defined responsibilities
+- Relationships between classes are clear and minimal
+- It's easy to extend without modifying existing code
+- Tests pass and edge cases are handled
+
+**Q: Do I need to memorize all 16 design patterns?**
+
+A: No, but you should understand their intent, trade-offs, and when to apply them. Practical experience (through implementation) makes patterns memorable naturally.
+
+---
+
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
