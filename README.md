@@ -427,6 +427,72 @@ A: No, but you should understand their intent, trade-offs, and when to apply the
 
 ---
 
+## Troubleshooting Guide
+
+### Common Issues and Solutions
+
+**Issue: I don't understand a design pattern**
+
+_Solution:_
+
+- Read the official GoF book chapter (referenced in Resources)
+- Study the intent and when to use it before looking at code
+- Check multiple examples (this repo + Refactoring Guru)
+- Implement a simple version before the full pattern
+
+**Issue: My code works but feels over-engineered**
+
+_Solution:_
+
+- You may be applying patterns unnecessarily. Patterns solve specific problems.
+- Start with the simplest solution that works
+- Refactor to introduce patterns only when needed
+- Remember: "Premature optimization is the root of all evil"
+
+**Issue: I'm stuck on a real-world problem (Phase 3)**
+
+_Solution:_
+
+- Break the problem into smaller components
+- Focus on one class/module at a time
+- Draw a class diagram before writing code
+- Check the problem's README for hints on patterns to use
+- Implement one use case fully before adding others
+
+**Issue: I don't know where to start designing a solution**
+
+_Solution:_
+Follow this sequence:
+
+1. List all entities/objects (User, Account, Transaction, etc.)
+2. Identify relationships (one-to-one, one-to-many, etc.)
+3. Define responsibilities for each class
+4. Identify which patterns apply
+5. Draw the class diagram
+6. Implement one entity at a time
+
+**Issue: My test coverage is low**
+
+_Solution:_
+
+- Write tests for edge cases (null values, empty collections, boundary conditions)
+- Test error scenarios (invalid inputs, exceptions)
+- Test interactions between classes (integration tests)
+- Aim for at least 80% code coverage for Phase 3 problems
+
+**Issue: I'm not sure if my design violates SOLID principles**
+
+_Solution:_
+Check each principle:
+
+- **S**RP: Does each class have one reason to change?
+- **O**CP: Can I extend without modifying existing code?
+- **L**SP: Can derived classes substitute base classes?
+- **I**SP: Do classes implement only needed methods?
+- **D**IP: Do I depend on abstractions, not concrete classes?
+
+---
+
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
