@@ -143,6 +143,62 @@ cd 03-problems/parking-lot/
 
 ---
 
+### Tips for Success
+
+**Active Learning Strategies**
+
+1. **Teach Others**: Explain concepts to a peer or write a blog post
+2. **Implement Variations**: Modify problems slightly to deepen understanding
+   - Example: Add multi-threading to the Parking Lot system
+   - Example: Add search filters to the Library system
+3. **Code Reviews**: Review others' implementations and provide feedback
+4. **Interview Simulation**: Time yourself solving Phase 3 problems (1–1.5 hours)
+5. **Diagram First**: Always sketch class and sequence diagrams before coding
+
+**Common Pitfalls to Avoid**
+
+- ❌ Reading without coding → Passive learning leads to retention loss
+- ❌ Rushing through phases → Weak foundations cause confusion later
+- ❌ Ignoring SOLID principles → Code becomes unmaintainable
+- ❌ Copying reference solutions directly → Misses learning opportunity
+- ❌ Not testing your code → Missing edge cases and bugs
+
+### Assessment Checkpoints
+
+**Milestone 1: End of Phase 1** (Weeks 2–3)
+
+- [ ] Can explain OOP principles with real-world examples
+- [ ] Have created 2–3 UML diagrams from scratch
+- [ ] Understand when and why to apply SOLID principles
+
+**Milestone 2: Mid-Phase 2** (Week 4)
+
+- [ ] Have implemented 8 creational and structural patterns
+- [ ] Can identify patterns in existing codebases
+- [ ] Understand trade-offs between similar patterns
+
+**Milestone 3: End of Phase 2** (Week 6)
+
+- [ ] Have implemented all 16 GoF patterns
+- [ ] Can explain the difference between each behavioral pattern
+- [ ] Comfortable combining multiple patterns in one system
+
+**Milestone 4: Phase 3 Completion** (Week 10)
+
+- [ ] Have fully implemented 8–10 real-world problems
+- [ ] Each implementation includes unit tests
+- [ ] Can explain pattern choices and trade-offs
+- [ ] Solutions handle edge cases robustly
+
+**Milestone 5: Capstone** (Week 12–16)
+
+- [ ] Understand concurrency and thread safety in LLD
+- [ ] Can apply clean code principles to large codebases
+- [ ] Have written or reviewed refactoring documents
+- [ ] Ready for system design interviews
+
+---
+
 ## Roadmap
 
 ### Phase 1 — Foundations
