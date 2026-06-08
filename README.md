@@ -493,6 +493,49 @@ Check each principle:
 
 ---
 
+## Community & Support
+
+### Getting Help
+
+**When you're stuck:**
+
+1. **Check the problem's README** — It often contains hints and links to relevant patterns
+2. **Review Refactoring Guru** — Excellent visual explanations of all GoF patterns
+3. **Search GitHub Issues** — Check if someone else had the same question
+4. **Create an Issue** — Describe your problem clearly with code snippets
+5. **Join discussions** — Engage with other learners solving the same problems
+
+### Contributing Solutions
+
+We welcome contributions! Here's how:
+
+1. **Solve a problem** using this repository's structure
+2. **Write clean code** with meaningful names and comments
+3. **Add unit tests** (aim for high coverage)
+4. **Create a UML diagram** (PNG or Excalidraw)
+5. **Submit a Pull Request** with a clear description
+
+**PR Guidelines:**
+
+- One problem per PR
+- Include tests and diagrams
+- Ensure code follows the language's conventions
+- Reference relevant patterns in comments
+- Compare your approach with alternatives
+
+### Sharing Your Progress
+
+Consider documenting your journey:
+
+- Write a **blog post** on what you learned
+- Create **implementation notes** in your fork
+- Share your **UML diagrams** and design decisions
+- Discuss **trade-offs** you discovered
+
+Your experience helps others learn better!
+
+---
+
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
