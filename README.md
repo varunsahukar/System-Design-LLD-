@@ -1,6 +1,6 @@
 # Low-Level Design (LLD) — System Design Roadmap
 
-A structured, progressive learning path to master Low-Level Design concepts, object-oriented principles, design patterns, and real-world system modeling.
+A structured, progressive learning path to master Low-Level Design concepts, object-oriented principles, design patterns, and real-world system modeling
 
 ---
 
