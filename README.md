@@ -7,6 +7,7 @@ A structured, progressive learning path to master Low-Level Design concepts, obj
 ## Table of Contents
 
 - [Overview](#overview)
+- [Learning Process](#learning-process)
 - [Roadmap](#roadmap)
   - [Phase 1 — Foundations](#phase-1--foundations)
   - [Phase 2 — Design Patterns](#phase-2--design-patterns)
@@ -31,7 +32,43 @@ This repository is a self-contained roadmap that covers foundational OOP princip
 
 ---
 
+## Learning Process
+
+### How to Use This Roadmap
+
+This repository is designed as a **progressive, hands-on learning path**. Follow these principles:
+
+#### 1. **Learn in Phase Order**
+Complete phases sequentially. Each phase builds upon the previous one:
+- **Phase 1** establishes the mental models needed for design
+- **Phase 2** teaches reusable patterns built on strong foundations
+- **Phase 3** applies patterns to realistic scenarios
+- **Phase 4** bridges component design with production engineering
+
+#### 2. **Understand Before Implementing**
+For each topic:
+1. Read the concept explanation
+2. Study the provided diagrams and examples
+3. Understand the trade-offs and when to use it
+4. Then implement from scratch (without looking at reference code initially)
+
+#### 3. **Code-First Learning**
+- **Do not just read**. Write code for every pattern and problem
+- Implement in your chosen language (Java, Python, or C++)
+- Create unit tests to validate your implementation
+- Refactor and optimize after it works
+
+#### 4. **Real-World Context**
+Connect theory to practice:
+- For Phase 3 problems, start with requirements, not code
+- Draw a class diagram before coding
+- Identify which patterns apply and why
+- Discuss trade-offs with peers or in design reviews
+
+---
+
 ## Roadmap
+
 
 ### Phase 1 — Foundations
 
