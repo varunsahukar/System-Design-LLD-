@@ -108,6 +108,41 @@ cd 03-problems/parking-lot/
 
 ---
 
+### Suggested Learning Timeline
+
+**Recommended Pace: 12–16 Weeks** (assuming 5–10 hours per week)
+
+| Phase   | Topics                            | Suggested Duration | Focus                                         |
+| ------- | --------------------------------- | ------------------ | --------------------------------------------- |
+| Phase 1 | Foundations (4 topics)            | 2–3 weeks          | Core concepts, mental models                  |
+| Phase 2 | Design Patterns (16 patterns)     | 5–6 weeks          | One pattern every 2 days, code examples       |
+| Phase 3 | Real-World Problems (15 problems) | 4–5 weeks          | One problem per 4–5 days, full implementation |
+| Phase 4 | Advanced Concepts (5 topics)      | 1–2 weeks          | Integration, best practices, optimization     |
+
+**Weekly Study Routine (Suggested)**
+
+**Days 1–2**: Theory
+
+- Read the concept/pattern documentation
+- Study provided diagrams and class structures
+- Understand the problem statement (for Phase 3)
+
+**Days 3–5**: Implementation
+
+- Design the solution (UML diagram or pseudocode)
+- Write code from scratch
+- Implement unit tests
+- Compare with reference solution
+
+**Days 6–7**: Reflection & Consolidation
+
+- Refactor and optimize your code
+- Write a brief summary in comments
+- Discuss trade-offs and alternative approaches
+- Mark progress in this README
+
+---
+
 ## Roadmap
 
 ### Phase 1 — Foundations
