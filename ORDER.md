@@ -5,3 +5,10 @@ This file captures the recommended order for mastering Low-Level Design concepts
 ## Overview
 
 Start with foundational principles and gradually move into patterns and real-world problems. Each step builds on the previous one.
+
+## Recommended Order
+
+1. Foundations: Solidify OOP and design thinking.
+2. Design Patterns: Learn common reusable solutions.
+3. Real-World Problems: Apply patterns to system design cases.
+4. Advanced Concepts: Refine, optimize, and integrate with production design.
