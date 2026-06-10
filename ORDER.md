@@ -27,3 +27,11 @@ Start with foundational principles and gradually move into patterns and real-wor
 - **Day 3**: Add tests and validate edge cases.
 - **Day 4**: Refactor, optimize, and document decisions.
 - **Day 5**: Review and repeat with a new pattern or problem.
+
+## Weekly Review Checklist
+
+- Review all lessons completed during the week.
+- Summarize what worked and what was challenging.
+- Update notes with improvements and key takeaways.
+- Plan the next week's focus based on weak areas.
+- Revisit earlier problems periodically for reinforcement.
