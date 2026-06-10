@@ -35,3 +35,11 @@ Start with foundational principles and gradually move into patterns and real-wor
 - Update notes with improvements and key takeaways.
 - Plan the next week's focus based on weak areas.
 - Revisit earlier problems periodically for reinforcement.
+
+## Assessment Milestones
+
+- **Milestone 1**: Complete Phase 1 with diagrams and practice problems.
+- **Milestone 2**: Implement at least 8 design patterns with tests.
+- **Milestone 3**: Build 4 real-world problems end-to-end.
+- **Milestone 4**: Apply advanced concepts like concurrency or clean code.
+- **Milestone 5**: Review the whole roadmap and identify remaining gaps.
