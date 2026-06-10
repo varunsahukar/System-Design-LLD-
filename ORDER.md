@@ -43,3 +43,10 @@ Start with foundational principles and gradually move into patterns and real-wor
 - **Milestone 3**: Build 4 real-world problems end-to-end.
 - **Milestone 4**: Apply advanced concepts like concurrency or clean code.
 - **Milestone 5**: Review the whole roadmap and identify remaining gaps.
+
+## Notes
+
+- Use this file to track the order in which you work through the repository.
+- Update this file with any custom changes to your learning order.
+- Commit early and often to build a strong GitHub streak.
+- Push each step separately so every change is recorded clearly.
